@@ -52,7 +52,7 @@ export const CakeCard: React.FC<CakeCardProps> = ({ cake, onViewDetails }) => {
           </h3>
           {/* Added shrink-0 so the price never squishes */}
           <span className="text-lg font-bold text-brand-primary shrink-0 mt-0.5">
-            ${cake.price.toFixed(2)}
+            Ksh{cake.price.toFixed(2)}
           </span>
         </div>
         {/* Softened text color to 500 and added leading-relaxed for scannability */}
