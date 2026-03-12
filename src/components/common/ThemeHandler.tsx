@@ -1,29 +1,34 @@
 // src/components/common/ThemeHandler.tsx
-import React, { useEffect } from 'react';
-import { brand } from '../../data';
+import { useEffect } from 'react';
+import { useBrand } from '../../context/BrandContext';
 
 /**
- * Injects brand colors from brand.json into CSS variables.
+ * Injects brand colors from brand data into CSS variables.
  * This allows for real-time white-labeling without rebuilding CSS.
  */
-export const ThemeHandler: React.FC = () => {
+export const ThemeHandler = () => {
+  const { data } = useBrand();
+
   useEffect(() => {
+    if (!data) return;
+    
     const root = document.documentElement;
+    const { colors, name, tagline } = data.brand;
     
     // Map JSON colors to CSS variables defined in index.css
-    if (brand.colors.primary) {
-      root.style.setProperty('--brand-primary', brand.colors.primary);
+    if (colors.primary) {
+      root.style.setProperty('--brand-primary', colors.primary);
     }
-    if (brand.colors.secondary) {
-      root.style.setProperty('--brand-secondary', brand.colors.secondary);
+    if (colors.secondary) {
+      root.style.setProperty('--brand-secondary', colors.secondary);
     }
-    if (brand.colors.accent) {
-      root.style.setProperty('--brand-accent', brand.colors.accent);
+    if (colors.accent) {
+      root.style.setProperty('--brand-accent', colors.accent);
     }
     
     // Set the Document Title dynamically
-    document.title = `${brand.name} | ${brand.tagline}`;
-  }, []);
+    document.title = `${name} | ${tagline}`;
+  }, [data]); // Effect re-runs if data changes
 
   return null; // This component doesn't render UI, only manages side effects
 };

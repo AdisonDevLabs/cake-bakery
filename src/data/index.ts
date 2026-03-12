@@ -1,4 +1,4 @@
-// src/data/index.ts
+{/* src/data/index.ts
 import brandData from './brand.json';
 import cakeData from './cakes.json';
 import siteConfig from './site-config.json';
@@ -16,3 +16,4 @@ export const gallery = galleryData as GalleryItem[];
 export const testimonials = testimonialData as Testimonial[];
 export const faqs = faqData as FaqItem[];
 export const policies = policyData as PolicyPageData[];
+*/}

@@ -1,11 +1,19 @@
 // src/components/common/Header.tsx
 import { ShoppingBasket, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import { brand } from '../../data';
+import { useBrand } from '../../context/BrandContext';
+import { useCart } from '../../context/CartContext';
 import { cn } from '../../utils/cn';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { data } = useBrand();
+  const { cartCount, setIsCartOpen } = useCart();
+
+  // Guard: If data hasn't loaded yet, don't crash the app
+  if (!data) return null;
+  
+  const { brand } = data;
 
   const navLinks = [
     { name: 'Home', href: '/' },
@@ -21,31 +29,36 @@ export const Header = () => {
           {/* Logo/Brand Name */}
           <div className="flex-shrink-0 flex items-center gap-2">
             {brand.logo ? (
-              <img src={brand.logo} alt={brand.name} className="h-10 w-auto" />
+              <img src={brand.logo} alt={`${brand.name} logo`} className="h-10 w-auto object-contain" />
             ) : (
-              <span className="text-2xl font-bold text-brand-primary tracking-tight">
-              {brand.name}
-            </span>
+              <span className="text-2xl font-black text-brand-primary tracking-tighter leading-none select-none">
+                {brand.name}
+              </span>
             )}
-
           </div>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex space-x-8 items-center">
+          {/* Desktop Nav - Added group hover for the cart icon */}
+          <div className="hidden md:flex space-x-6 items-center">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-slate-600 hover:text-brand-primary transition-colors"
+                className="text-sm font-semibold text-slate-600 hover:text-brand-primary transition-all duration-200 px-2 py-1 rounded-md hover:bg-slate-50"
               >
                 {link.name}
               </a>
             ))}
-            <button className="p-2 text-slate-600 hover:text-brand-primary relative">
-              <ShoppingBasket className="w-6 h-6" />
-              <span className="absolute top-0 right-0 bg-brand-primary text-white text-[10px] rounded-full w-4 h-4 flex items-center justify-center">
-                0
-              </span>
+            <button 
+              onClick={() => setIsCartOpen(true)} 
+              aria-label={`View shopping cart with ${cartCount} items`}
+              className="p-2 text-slate-600 hover:text-brand-primary relative group transition-transform active:scale-90"
+            >
+              <ShoppingBasket className="w-6 h-6 transition-transform group-hover:rotate-3" />
+              {cartCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-brand-primary text-white text-[11px] font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-sm ring-2 ring-white">
+                  {cartCount}
+                </span>
+              )}
             </button>
           </div>
 
@@ -53,22 +66,27 @@ export const Header = () => {
           <div className="md:hidden flex items-center">
             <button 
               onClick={() => setIsOpen(!isOpen)}
-              className="text-slate-600 p-2"
+              aria-label={isOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isOpen}
+              className="text-slate-600 p-2 hover:bg-slate-100 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-brand-primary/50"
             >
-              {isOpen ? <X /> : <Menu />}
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
       </div>
 
       {/* Mobile Nav */}
-      <div className={cn("md:hidden bg-white border-b border-slate-100", isOpen ? "block" : "hidden")}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+      <div className={cn(
+        "md:hidden bg-white border-b border-slate-100 overflow-hidden transition-all duration-300 ease-in-out", 
+        isOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+      )}>
+        <div className="px-4 pt-2 pb-6 space-y-2 sm:px-3">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-brand-primary"
+              className="block px-4 py-3 text-base font-semibold text-slate-700 hover:text-brand-primary hover:bg-slate-50 rounded-xl transition-colors"
             >
               {link.name}
             </a>

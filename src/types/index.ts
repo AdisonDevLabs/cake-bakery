@@ -85,3 +85,8 @@ export interface PolicyPageData {
   lastUpdated: string;
   sections: PolicySection[];
 }
+
+export interface CartItem {
+  cake: Cake;
+  quantity: number;
+}

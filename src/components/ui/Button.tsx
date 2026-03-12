@@ -20,11 +20,13 @@ export const Button: React.FC<ButtonProps> = ({
     primary: 'bg-brand-primary text-white hover:bg-brand-accent shadow-sm',
     secondary: 'bg-brand-secondary text-brand-accent hover:bg-brand-secondary/80',
     outline: 'border-2 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white',
-    ghost: 'text-slate-600 hover:bg-slate-100',
+    // Added hover:text-slate-900 for a snappier interaction state
+    ghost: 'text-slate-600 hover:text-slate-900 hover:bg-slate-100',
   };
 
   const sizes = {
-    sm: 'px-3 py-1.5 text-sm',
+    // Added font-medium for consistency with md and lg
+    sm: 'px-3 py-1.5 text-sm font-medium',
     md: 'px-6 py-2.5 text-base font-medium',
     lg: 'px-8 py-3 text-lg font-bold',
   };
@@ -32,7 +34,7 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <button
       className={cn(
-        'inline-flex items-center justify-center rounded-full transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed active:scale-95',
+        'inline-flex items-center justify-center gap-2 rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed active:scale-95',
         variants[variant],
         sizes[size],
         className
@@ -41,7 +43,7 @@ export const Button: React.FC<ButtonProps> = ({
       {...props}
     >
       {isLoading ? (
-        <span className="mr-2 h-4 w-4 animate-spin border-2 border-current border-t-transparent rounded-full" />
+        <span className="h-4 w-4 animate-spin border-2 border-current border-t-transparent rounded-full shrink-0" />
       ) : null}
       {children}
     </button>
