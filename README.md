@@ -10,4 +10,4 @@ This project is a Static Site (SPA).
 1. Push this code to GitHub.
 2. Connect the repository to Vercel or Netlify.
 3. Set the build command to `pnpm run build` and the output directory to `dist`.
-4. *To launch a new client:* Simply fork the repo, swap the JSON files in `/data`, and deploy. Done.
+4. **To launch a new client:** Simply fork the repo, swap the JSON files in `/data`, and deploy. Done.
