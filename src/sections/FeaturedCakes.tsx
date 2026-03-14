@@ -4,6 +4,7 @@ import { Section } from '../components/common/Section';
 import { CakeCard } from '../components/common/CakeCard';
 import { Button } from '../components/ui/Button';
 import type { Cake } from '../types';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 interface FeaturedCakesProps {
   onSelectCake: (cake: Cake) => void;
@@ -12,6 +13,8 @@ interface FeaturedCakesProps {
 export const FeaturedCakes: React.FC<FeaturedCakesProps> = ({ onSelectCake }) => {
   // 1. Pull data from our dynamic context instead of the static import
   const { data } = useBrand();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   // 2. Guard clause in case the data is still loading
   if (!data) return null;
@@ -37,7 +40,7 @@ export const FeaturedCakes: React.FC<FeaturedCakesProps> = ({ onSelectCake }) =>
         <Button 
           variant="outline" 
           size="lg" 
-          className="group px-8 border-slate-200 text-slate-900 hover:border-brand-primary hover:text-brand-primary"
+          className="group px-8 border-slate-200 text-slate-900 hover:border-brand-primary hover:text-brand-primary" onClick={() => navigate(`/shop${location.search}`)}
         >
           Explore Full Collection
           <span className="inline-block transition-transform group-hover:translate-x-1 ml-1">

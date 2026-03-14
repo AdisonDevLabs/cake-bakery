@@ -45,21 +45,21 @@ export const CakeCard: React.FC<CakeCardProps> = ({ cake, onViewDetails }) => {
            <Eye className="text-white w-10 h-10 drop-shadow-md" />
         </div>
       </div>
-      <div className="flex justify-between items-start mb-2 gap-4">
+      <div className="flex justify-between items-start mb-2 px-2 gap-4">
           {/* Removed redundant onClick, relying on image and button instead */}
           <h3 className="text-xl font-bold text-slate-900 line-clamp-2">
             {cake.name}
           </h3>
           {/* Added shrink-0 so the price never squishes */}
           <span className="text-lg font-bold text-brand-primary shrink-0 mt-0.5">
-            Ksh{cake.price.toFixed(2)}
+            Ksh {cake.price.toFixed(2)}
           </span>
         </div>
         {/* Softened text color to 500 and added leading-relaxed for scannability */}
-        <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 mb-6">
+        <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 px-2 mb-6">
           {cake.description}
         </p>
-        <div className="mt-auto space-y-2">
+        <div className="mt-auto px-2 space-y-2">
           <Button className="w-full gap-2" variant="primary" onClick={handleAddToCart}>
             <ShoppingCart className="w-4 h-4" />
             Add to Cart

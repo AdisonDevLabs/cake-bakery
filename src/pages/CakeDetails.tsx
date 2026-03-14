@@ -55,7 +55,7 @@ export const CakeDetails: React.FC<CakeDetailsProps> = ({ cake, onBack }) => {
             
             <div className="flex items-center gap-6 mb-8">
               <span className="text-4xl font-black text-brand-primary tracking-tight">
-                ${cake.price.toFixed(2)}
+                Ksh {cake.price.toFixed(2)}
               </span>
               <div className="h-8 w-px bg-slate-200 rotate-12" />
               <div className="flex flex-col">

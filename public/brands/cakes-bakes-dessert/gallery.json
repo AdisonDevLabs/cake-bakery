@@ -1,26 +1,26 @@
 [
   {
     "id": "g1",
-    "image": "https://images.unsplash.com/photo-1535254973040-607b474cb80d?auto=format&fit=crop&q=80&w=800",
-    "caption": "Three-tier floral wedding cake",
-    "category": "Weddings"
+    "image": "/brands/cakes-bakes-dessert/images/crunch-filled-medjools.png",
+    "caption": "Crunch-Filled Medjool Dates coated in chocolate",
+    "category": "Dates"
   },
   {
     "id": "g2",
-    "image": "https://images.unsplash.com/photo-1551404660-6086f4a8677c?auto=format&fit=crop&q=80&w=800",
-    "caption": "Hand-painting gold leaf details",
-    "category": "Behind the Scenes"
+    "image": "/brands/cakes-bakes-dessert/images/dubai-style-medjools.png",
+    "caption": "Dubai-Style Medjool Dates with pistachio and kataifi",
+    "category": "Dates"
   },
   {
     "id": "g3",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
-    "caption": "Birthday celebration set",
-    "category": "Parties"
+    "image": "/brands/cakes-bakes-dessert/images/nougat.png",
+    "caption": "Homemade nougat with cranberries and roasted nuts",
+    "category": "Confectionery"
   },
   {
     "id": "g4",
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=800",
-    "caption": "Freshly baked morning croissants",
-    "category": "Bakery"
+    "image": "/brands/cakes-bakes-dessert/images/chocolate-chip-cookies.png",
+    "caption": "Classic chocolate chip cookies baked fresh",
+    "category": "Cookies"
   }
 ]

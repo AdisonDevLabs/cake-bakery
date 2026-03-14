@@ -1,6 +1,7 @@
 // src/components/common/Header.tsx
 import { ShoppingBasket, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { useBrand } from '../../context/BrandContext';
 import { useCart } from '../../context/CartContext';
 import { cn } from '../../utils/cn';
@@ -10,9 +11,10 @@ export const Header = () => {
   const { data } = useBrand();
   const { cartCount, setIsCartOpen } = useCart();
 
+  const location = useLocation();
+
   // Guard: If data hasn't loaded yet, don't crash the app
   if (!data) return null;
-  
   const { brand } = data;
 
   const navLinks = [
@@ -29,7 +31,7 @@ export const Header = () => {
           {/* Logo/Brand Name */}
           <div className="flex-shrink-0 flex items-center gap-2">
             {brand.logo ? (
-              <img src={brand.logo} alt={`${brand.name} logo`} className="h-10 w-auto object-contain" />
+              <img src={brand.logo} alt={`${brand.name} logo`} className="h-20 w-auto object-contain" />
             ) : (
               <span className="text-2xl font-black text-brand-primary tracking-tighter leading-none select-none">
                 {brand.name}
@@ -40,13 +42,13 @@ export const Header = () => {
           {/* Desktop Nav - Added group hover for the cart icon */}
           <div className="hidden md:flex space-x-6 items-center">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={`${link.href}${location.search}`}
                 className="text-sm font-semibold text-slate-600 hover:text-brand-primary transition-all duration-200 px-2 py-1 rounded-md hover:bg-slate-50"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
             <button 
               onClick={() => setIsCartOpen(true)} 
@@ -83,13 +85,14 @@ export const Header = () => {
       )}>
         <div className="px-4 pt-2 pb-6 space-y-2 sm:px-3">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
-              href={link.href}
+              to={`${link.href}${location.search}`}
+              onClick={() => setIsOpen(false)} 
               className="block px-4 py-3 text-base font-semibold text-slate-700 hover:text-brand-primary hover:bg-slate-50 rounded-xl transition-colors"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

@@ -2,10 +2,14 @@
 import { useBrand } from '../context/BrandContext';
 import { Button } from '../components/ui/Button';
 import { ArrowRight } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 export const Hero = () => {
 
   const { data } = useBrand();
+  const navigate = useNavigate();
+  const location = useLocation();
+
   if (!data) return null;
 
   const { brand } = data;
@@ -43,11 +47,11 @@ export const Hero = () => {
             delivered fresh to your door. Experience the magic of <span className="text-slate-900 font-semibold">{brand.name}</span>.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" className="group px-8 h-16 text-lg shadow-xl shadow-brand-primary/20 gap-3">
+            <Button size="lg" className="group px-8 h-16 text-lg shadow-xl shadow-brand-primary/20 gap-3" onClick={() => navigate(`/shop${location.search}`)}>
               Browse Cakes 
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="ghost" className="h-16 px-8 text-slate-500 hover:text-slate-900">
+            <Button size="lg" variant="ghost" className="h-16 px-8 text-slate-500 hover:text-slate-900" onClick={() => navigate(`/gallery${location.search}`)}>
               Our Story
             </Button>
           </div>

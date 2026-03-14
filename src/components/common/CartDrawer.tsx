@@ -21,14 +21,14 @@ export const CartDrawer = () => {
     const cleanPhone = brand.contact.phone.replace(/\D/g, '');
 
     // 2. Build the personalized message using WhatsApp formatting (*bold*, _italic_)
-    let message = `Hello *${brand.name}*! 👋\nI would like to place an order:\n\n`;
+    let message = `Hello *${brand.name}* 👋\nI would like to place an order:\n\n`;
     
     items.forEach(item => {
       message += `▪️ ${item.quantity}x ${item.cake.name} - $${(item.cake.price * item.quantity).toFixed(2)}\n`;
     });
 
     message += `\n*Order Total: $${cartTotal.toFixed(2)}*\n\n`;
-    message += `Please let me know the next steps for payment and delivery details. Thank you!`;
+    message += `Please let me know the next steps for payment and delivery details. Thank you`;
 
     // 3. Encode the text so it works safely in a URL
     const encodedMessage = encodeURIComponent(message);
@@ -93,7 +93,7 @@ export const CartDrawer = () => {
                 {/* Added flex flex-col so mt-auto actually pushes the controls to the bottom */}
                 <div className="flex-1 flex flex-col">
                   <h3 className="font-bold text-slate-900 leading-tight mb-1">{item.cake.name}</h3>
-                  <p className="text-brand-primary font-bold text-sm mb-3">${item.cake.price.toFixed(2)}</p>
+                  <p className="text-brand-primary font-bold text-sm mb-3">Ksh {item.cake.price.toFixed(2)}</p>
                   
                   {/* mt-auto now works perfectly here */}
                   <div className="flex items-center justify-between mt-auto">
@@ -125,7 +125,7 @@ export const CartDrawer = () => {
           <div className="p-6 border-t border-slate-100 bg-slate-50">
             <div className="flex justify-between items-center mb-6">
               <span className="font-medium text-slate-600">Subtotal</span>
-              <span className="text-2xl font-bold text-slate-900">${cartTotal.toFixed(2)}</span>
+              <span className="text-2xl font-bold text-slate-900">Ksh {cartTotal.toFixed(2)}</span>
             </div>
             
             {/* The WhatsApp Button */}

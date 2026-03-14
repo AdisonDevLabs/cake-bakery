@@ -1,0 +1,19 @@
+{
+  "name": "Nakuru Patisserie Bakeries",
+  "tagline": "Leading Bakery in Nakuru Town. Experts in cakes, khara biscuits, fresh bread, del",
+  "logo": "/brands/nakuru-patisserie-bakeries/images/nakuru-patisserie-logo.jpg",
+  "colors": {
+    "primary": "#db2777",
+    "secondary": "#fbcfe8",
+    "accent": "#9d174d"
+  },
+  "contact": {
+    "email": "nakurupatt@yahoo.com",
+    "phone": "254733729381",
+    "address": "Kenyatta Avenue, Nakuru, Kenya",
+    "socials": {
+      "instagram": "",
+      "facebook": "https://facebook.com/CakesBakesDesserts"
+    }
+  }
+}

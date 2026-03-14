@@ -1,28 +1,29 @@
 [
   {
     "id": "t1",
-    "name": "Sarah Jenkins",
-    "role": "Bride",
-    "content": "The Velvet Dream cake was the highlight of our wedding! Not only was it stunning to look at, but every guest raved about the taste. Thank you for making our day so sweet.",
+    "name": "Harriet Cheryl Maloba",
+    "role": "",
+    "content": "Very good quality cakes, texture, flavor and deco all on point",
     "rating": 5,
-    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150",
-    "date": "Oct 2025"
+    "image": "/brands/cakes-bakes-dessert/images/harriet-cheryl-maloba.jpg",
+    "date": "May 23, 2020"
   },
   {
     "id": "t2",
-    "name": "Mark Thompson",
-    "role": "Local Foodie",
-    "content": "Best lemon tart in the city. Period. I've tried them all, but the balance of zest and sweetness here is unmatched.",
+    "name": "Anju Sandhu",
+    "role": "",
+    "content": "The cake is always ready on time. it is fresh and the cake moisture is just right. The taste is unique with any flavour required. You are so talented that any cake is not impossible to make. keep up the good work.",
     "rating": 5,
-    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150",
-    "date": "Dec 2025"
+    "image": "/brands/cakes-bakes-dessert/images/anju-sandhu.jpg",
+    "date": "Dec 14, 2018"
   },
   {
     "id": "t3",
-    "name": "Emily Rodriguez",
-    "role": "Event Planner",
-    "content": "I recommend this bakery to all my clients. Professional, reliable, and consistently high-quality work.",
+    "name": "Millyanne Njeri",
+    "role": "",
+    "content": "Best cakes,worth every dime. I highly recommend Avi. Pays attention to details and meets the deadline. I am a happy client",
     "rating": 5,
-    "date": "Jan 2026"
+    "image": "/brands/cakes-bakes-dessert/images/millyanne-njeri.jpg",
+    "date": "Jan 18, 2018"
   }
 ]
