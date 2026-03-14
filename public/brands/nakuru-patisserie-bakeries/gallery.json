@@ -1,26 +1,32 @@
 [
   {
     "id": "g1",
-    "image": "https://images.unsplash.com/photo-1535254973040-607b474cb80d?auto=format&fit=crop&q=80&w=800",
-    "caption": "Three-tier floral wedding cake",
-    "category": "Weddings"
+    "image": "/brands/nakuru-patisserie-bakeries/images/thanksgiving-image-cake.jpg",
+    "caption": "AIC Milimani Thanksgiving Celebration Cake",
+    "category": "Custom Cakes"
   },
   {
     "id": "g2",
-    "image": "https://images.unsplash.com/photo-1551404660-6086f4a8677c?auto=format&fit=crop&q=80&w=800",
-    "caption": "Hand-painting gold leaf details",
-    "category": "Behind the Scenes"
+    "image": "/brands/nakuru-patisserie-bakeries/images/disney-cars-birthday-cake.jpg",
+    "caption": "Disney Cars Lightning McQueen 1st Birthday Cake",
+    "category": "Birthday"
   },
   {
     "id": "g3",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
-    "caption": "Birthday celebration set",
-    "category": "Parties"
+    "image": "/brands/nakuru-patisserie-bakeries/images/floral-mother's-day-cake.jpg",
+    "caption": "St. Xavier's Floral Mother's Day Cake",
+    "category": "Occasions"
   },
   {
     "id": "g4",
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=800",
-    "caption": "Freshly baked morning croissants",
-    "category": "Bakery"
+    "image": "/brands/nakuru-patisserie-bakeries/images/shira-pampas-cake.jpg",
+    "caption": "Shira's 30th Milestone Birthday Gold Cake",
+    "category": "Birthday"
+  },
+  {
+    "id": "g5",
+    "image": "/brands/nakuru-patisserie-bakeries/images/nadine-silhouette-cake.jpg",
+    "caption": "Nadine's 17th Silhouette Birthday Cake",
+    "category": "Birthday"
   }
 ]

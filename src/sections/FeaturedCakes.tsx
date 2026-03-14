@@ -40,7 +40,7 @@ export const FeaturedCakes: React.FC<FeaturedCakesProps> = ({ onSelectCake }) =>
         <Button 
           variant="outline" 
           size="lg" 
-          className="group px-8 border-slate-200 text-slate-900 hover:border-brand-primary hover:text-brand-primary" onClick={() => navigate(`/shop${location.search}`)}
+          className="group px-8 border-slate-200 text-slate-900 hover:border-brand-primary hover:text-brand-secondary" onClick={() => navigate(`/shop${location.search}`)}
         >
           Explore Full Collection
           <span className="inline-block transition-transform group-hover:translate-x-1 ml-1">
