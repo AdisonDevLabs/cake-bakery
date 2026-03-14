@@ -24,10 +24,10 @@ export const CartDrawer = () => {
     let message = `Hello *${brand.name}* 👋\nI would like to place an order:\n\n`;
     
     items.forEach(item => {
-      message += `▪️ ${item.quantity}x ${item.cake.name} - $${(item.cake.price * item.quantity).toFixed(2)}\n`;
+      message += `▪️ ${item.quantity}x ${item.cake.name} - Ksh ${(item.cake.price * item.quantity).toFixed(2)}\n`;
     });
 
-    message += `\n*Order Total: $${cartTotal.toFixed(2)}*\n\n`;
+    message += `\n*Order Total: Ksh ${cartTotal.toFixed(2)}*\n\n`;
     message += `Please let me know the next steps for payment and delivery details. Thank you`;
 
     // 3. Encode the text so it works safely in a URL
