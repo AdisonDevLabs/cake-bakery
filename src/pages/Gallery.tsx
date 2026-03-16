@@ -13,7 +13,7 @@ export const Gallery = () => {
         title="Our Gallery" 
         subtitle="A glimpse into our kitchen and the beautiful celebrations we've been a part of."
       >
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 md:gap-8 space-y-4 md:space-y-8">
+        <div className="columns-1 sm:columns-3 lg:columns-4 gap-4 md:gap-8 space-y-4 md:space-y-8">
           {data.gallery.map((item) => (
             <div 
               key={item.id} 
