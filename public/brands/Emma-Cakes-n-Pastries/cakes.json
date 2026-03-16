@@ -5,7 +5,7 @@
     "name": "Gold Leaf & Chocolate Tiered Cake",
     "description": "An elegant two-tier masterpiece featuring textured gold frost and rich chocolate finish, topped with fresh roses.",
     "price": 5500.00,
-    "image": "/images/unnamed-9.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/gold-leaf-chocolate-tiered.jpg",
     "categoryId": "tiered",
     "isFeatured": true,
     "tags": ["Luxury", "2-Tier", "Wedding"]
@@ -16,7 +16,7 @@
     "name": "Signature Strawberry Drip Cake",
     "description": "Classic white forest base with a rich dark chocolate drip, topped with fresh strawberries and whipped cream.",
     "price": 2800.00,
-    "image": "/images/unnamed-8.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/strawberry-chocolate-drip.jpg",
     "categoryId": "celebration",
     "isFeatured": true,
     "tags": ["Bestseller", "Fresh Fruit"]
@@ -27,7 +27,7 @@
     "name": "Chelsea FC & Frozen Theme Cake",
     "description": "A unique custom hybrid design featuring Chelsea FC branding and Frozen's Elsa for the ultimate fan celebration.",
     "price": 3200.00,
-    "image": "/images/unnamed-7.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/chelsea-frozen-hybrid.jpg",
     "categoryId": "themed",
     "isFeatured": true,
     "tags": ["Custom", "Kids", "Sports"]
@@ -38,7 +38,7 @@
     "name": "Classic Birthday Chocolate Drip",
     "description": "Elegant white frosting with a decadent chocolate drip, gold pearls, and custom 'Happy Birthday' topper.",
     "price": 2500.00,
-    "image": "/images/unnamed-6.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/classic-birthday-drip.jpg",
     "categoryId": "celebration",
     "isFeatured": true,
     "tags": ["Birthday", "Classic"]
@@ -49,7 +49,7 @@
     "name": "Quilted Pearl Anniversary Cake",
     "description": "Two-tier green and white quilted design accented with edible gold pearls for weddings and anniversaries.",
     "price": 5200.00,
-    "image": "/images/unnamed-5.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/quilted-pearl-tiered.jpg",
     "categoryId": "tiered",
     "isFeatured": true,
     "tags": ["Anniversary", "2-Tier", "Elegant"]
@@ -60,7 +60,7 @@
     "name": "Spider-Man Hero Celebration",
     "description": "Action-packed Spider-Man themed cake with red and white textured frosting and custom character toppers.",
     "price": 3000.00,
-    "image": "/images/unnamed-4.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/spiderman-hero-cake.jpg",
     "categoryId": "themed",
     "isFeatured": true,
     "tags": ["Kids", "Themed"]
@@ -71,7 +71,7 @@
     "name": "Pink Ombre 'You're Loved' Cake",
     "description": "Soft pink to white ombre frosting with elegant whipped peaks. Perfect for showing someone they are special.",
     "price": 2200.00,
-    "image": "/images/unnamed-3.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/pink-ombre-love.jpg",
     "categoryId": "celebration",
     "isFeatured": true,
     "tags": ["Ombre", "Gifts"]
@@ -82,7 +82,7 @@
     "name": "Yellow Sunburst Birthday Cake",
     "description": "Vibrant yellow ombre design with whipped cream swirls and custom birthday messaging.",
     "price": 2200.00,
-    "image": "/images/unnamed-2.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/yellow-ombre-birthday.jpg",
     "categoryId": "celebration",
     "isFeatured": true,
     "tags": ["Birthday", "Vibrant"]
@@ -93,7 +93,7 @@
     "name": "Festive Christmas Drip Cake",
     "description": "Holiday-themed green frosting with chocolate drip and mistletoe accents. The centerpiece for your Christmas table.",
     "price": 2600.00,
-    "image": "/images/unnamed-1.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/festive-christmas-drip.jpg",
     "categoryId": "themed",
     "isFeatured": true,
     "tags": ["Christmas", "Holiday"]
@@ -104,7 +104,7 @@
     "name": "Sofia the First Princess Cake",
     "description": "Two-tier purple and white princess-themed cake with floral accents and a large custom bow.",
     "price": 4800.00,
-    "image": "/images/unnamed.jpg",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/sofia-the-first-tiered.jpg",
     "categoryId": "tiered",
     "isFeatured": true,
     "tags": ["Princess", "2-Tier", "Kids"]

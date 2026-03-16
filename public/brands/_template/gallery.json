@@ -1,26 +1,62 @@
 [
   {
     "id": "g1",
-    "image": "https://images.unsplash.com/photo-1535254973040-607b474cb80d?auto=format&fit=crop&q=80&w=800",
-    "caption": "Three-tier floral wedding cake",
+    "image": "/images/unnamed-9.jpg",
+    "caption": "Luxury Gold Leaf & Chocolate 2-Tier Wedding Cake",
     "category": "Weddings"
   },
   {
     "id": "g2",
-    "image": "https://images.unsplash.com/photo-1551404660-6086f4a8677c?auto=format&fit=crop&q=80&w=800",
-    "caption": "Hand-painting gold leaf details",
-    "category": "Behind the Scenes"
+    "image": "/images/unnamed-5.jpg",
+    "caption": "Elegant Quilted Pearl Anniversary Design",
+    "category": "Anniversaries"
   },
   {
     "id": "g3",
-    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800",
-    "caption": "Birthday celebration set",
-    "category": "Parties"
+    "image": "/images/unnamed-7.jpg",
+    "caption": "Custom Chelsea FC & Frozen Hybrid Theme",
+    "category": "Themed"
   },
   {
     "id": "g4",
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=800",
-    "caption": "Freshly baked morning croissants",
-    "category": "Bakery"
+    "image": "/images/unnamed-4.jpg",
+    "caption": "Spider-Man Hero Celebration Cake",
+    "category": "Kids"
+  },
+  {
+    "id": "g5",
+    "image": "/images/unnamed.jpg",
+    "caption": "Sofia the First Princess Tiered Cake",
+    "category": "Kids"
+  },
+  {
+    "id": "g6",
+    "image": "/images/unnamed-8.jpg",
+    "caption": "Signature White Forest Strawberry Drip",
+    "category": "Signature"
+  },
+  {
+    "id": "g7",
+    "image": "/images/unnamed-3.jpg",
+    "caption": "Soft Pink Ombre Celebration Cake",
+    "category": "Celebrations"
+  },
+  {
+    "id": "g8",
+    "image": "/images/unnamed-2.jpg",
+    "caption": "Vibrant Yellow Ombre Birthday Design",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g9",
+    "image": "/images/unnamed-1.jpg",
+    "caption": "Festive Christmas Mistletoe Drip Cake",
+    "category": "Holidays"
+  },
+  {
+    "id": "g10",
+    "image": "/images/unnamed-6.jpg",
+    "caption": "Classic Chocolate Drip Birthday Cake",
+    "category": "Birthdays"
   }
 ]

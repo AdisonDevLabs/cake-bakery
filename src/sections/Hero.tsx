@@ -29,7 +29,7 @@ export const Hero = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl relative">
-          <span className="inline-block px-4 py-1 rounded-full bg-brand-primary/10 text-brand-primary text-xs font-black tracking-[0.2em] uppercase mb-8">
+          <span className="inline-block px-4 py-1 text-4xl rounded-full bg-brand-primary/10 text-brand-primary text-xs font-black tracking-[0.2em] uppercase mb-8">
             Welcome to {brand.name}
           </span>
           <h1 className="text-5xl md:text-7xl font-black text-slate-900 leading-[1.05] mb-6 tracking-tighter">

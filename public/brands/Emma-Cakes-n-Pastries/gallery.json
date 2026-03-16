@@ -1,0 +1,38 @@
+[
+  {
+    "id": "g1",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/gold-leaf-chocolate-tiered.jpg",
+    "caption": "Luxury Gold Leaf & Chocolate 2-Tier Wedding Cake",
+    "category": "Weddings"
+  },
+  {
+    "id": "g2",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/quilted-pearl-tiered.jpg",
+    "caption": "Elegant Quilted Pearl Anniversary Design",
+    "category": "Anniversaries"
+  },
+  {
+    "id": "g3",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/chelsea-frozen-hybrid.jpg",
+    "caption": "Custom Chelsea FC & Frozen Hybrid Theme",
+    "category": "Themed"
+  },
+  {
+    "id": "g4",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/spiderman-hero-cake.jpg",
+    "caption": "Spider-Man Hero Celebration Cake",
+    "category": "Kids"
+  },
+  {
+    "id": "g5",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/sofia-the-first-tiered.jpg",
+    "caption": "Sofia the First Princess Tiered Cake",
+    "category": "Kids"
+  },
+  {
+    "id": "g6",
+    "image": "/brands/Emma-Cakes-n-Pastries/images/strawberry-chocolate-drip.jpg",
+    "caption": "Signature White Forest Strawberry Drip",
+    "category": "Signature"
+  }
+]
