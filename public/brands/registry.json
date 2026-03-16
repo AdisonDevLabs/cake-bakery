@@ -1,5 +1,9 @@
 [
   {
+    "name": "Bakers Riko",
+    "id": "Bakers-Riko"
+  },
+  {
     "name": "Emma's Cakes n Pastries",
     "id": "Emma-Cakes-n-Pastries"
   },
@@ -8,15 +12,7 @@
     "id": "cakes-bakes-dessert"
   },
   {
-    "name": "Sweet Blossoms Bakery",
-    "id": "midnight-treats"
-  },
-  {
     "name": "Nakuru Patisserie Bakeries",
     "id": "nakuru-patisserie-bakeries"
-  },
-  {
-    "name": "Sweet Blossoms Bakery",
-    "id": "sweet-blossoms"
   }
 ]

@@ -5,7 +5,7 @@
     "name": "Custom 28th Milestone Cake",
     "description": "Elegant white frosted cake with gold splatter, fresh roses, and custom acrylic toppers.",
     "price": 3200.00,
-    "image": "/brands/images/gold-28-birthday-cake.jpg",
+    "image": "/brands/Bakers-Riko/images/gold-28-birthday-cake.jpg",
     "categoryId": "cakes",
     "isFeatured": true,
     "tags": ["Birthday", "Custom"]
@@ -16,7 +16,7 @@
     "name": "Mother's Day Silhouette Cake",
     "description": "Artistic face silhouette design accented with a waterfall of fresh purple and pink floral blooms.",
     "price": 3500.00,
-    "image": "/brands/images/mothers-day-art-cake.jpg",
+    "image": "/brands/Bakers-Riko/images/mothers-day-art-cake.jpg",
     "categoryId": "specialty",
     "isFeatured": true,
     "tags": ["Artistic", "Mother's Day"]
@@ -27,7 +27,7 @@
     "name": "Oreo & Chocolate Cupcake Box",
     "description": "Box of 6 premium cupcakes topped with rich chocolate buttercream, mini Oreos, and chocolate bars.",
     "price": 1500.00,
-    "image": "/brands/images/specialty-chocolate-cupcakes.jpg",
+    "image": "/brands/Bakers-Riko/images/specialty-chocolate-cupcakes.jpg",
     "categoryId": "bakery",
     "isFeatured": true,
     "tags": ["Cupcakes", "Party Pack"]
@@ -38,7 +38,7 @@
     "name": "Gourmet Choco-Chip Cookies",
     "description": "Thick, chewy, and loaded with premium dark chocolate chunks. Baked fresh daily.",
     "price": 1200.00,
-    "image": "/brands/images/choco-chip-cookies.jpg",
+    "image": "/brands/Bakers-Riko/images/choco-chip-cookies.jpg",
     "categoryId": "bakery",
     "isFeatured": true,
     "tags": ["Cookies", "Fresh"]

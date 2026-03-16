@@ -1,25 +1,25 @@
 [
   {
     "id": "g1",
-    "image": "/brands/images/gold-28-birthday-cake.jpg",
+    "image": "/brands/Bakers-Riko/images/gold-28-birthday-cake.jpg",
     "caption": "Milestone Birthday Designs",
     "category": "Birthdays"
   },
   {
     "id": "g2",
-    "image": "/brands/images/mothers-day-art-cake.jpg",
+    "image": "/brands/Bakers-Riko/images/mothers-day-art-cake.jpg",
     "caption": "Artistic Mother's Day Specialty",
     "category": "Special Occasions"
   },
   {
     "id": "g3",
-    "image": "/brands/images/specialty-chocolate-cupcakes.jpg",
+    "image": "/brands/Bakers-Riko/images/specialty-chocolate-cupcakes.jpg",
     "caption": "Signature Cupcake Assortment",
     "category": "Bakery"
   },
   {
     "id": "g4",
-    "image": "/brands/images/choco-chip-cookies.jpg",
+    "image": "/brands/Bakers-Riko/images/choco-chip-cookies.jpg",
     "caption": "Freshly Baked Gourmet Cookies",
     "category": "Bakery"
   }
