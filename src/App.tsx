@@ -8,6 +8,7 @@ import { Shop } from './pages/Shop';
 import { CakeDetails } from './pages/CakeDetails';
 import { Gallery } from './pages/Gallery';
 import { Contact } from './pages/Contact';
+import { CustomOrder } from './pages/CustomOrder';
 import { ThemeHandler } from './components/common/ThemeHandler';
 import { CartProvider } from './context/CartContext'; // Add this import
 import { CartDrawer } from './components/common/CartDrawer';
@@ -107,12 +108,29 @@ const AdminDashboard = () => {
 // ----------------------------------------------
 
 const AppContent = () => {
-  const { isLoading, error } = useBrand();
+  const { data, isLoading, error } = useBrand();
   const [selectedCake, setSelectedCake] = useState<Cake | null>(null);
   const [isDev, setIsDev] = useState(false);
 
   const navigate = useNavigate();
   const location = useLocation();
+
+  // 2. Add this useEffect to handle the dynamic favicon
+  useEffect(() => {
+    if (data?.brand?.logo) {
+      // Find the existing favicon link or create a new one
+      const link: HTMLLinkElement = document.querySelector("link[rel*='icon']") || document.createElement('link');
+      link.type = 'image/x-icon';
+      link.rel = 'icon';
+      link.href = data.brand.logo;
+      
+      // Append to head if it's a newly created element
+      if (!document.querySelector("link[rel*='icon']")) {
+        document.getElementsByTagName('head')[0].appendChild(link);
+      }
+    }
+  }, [data?.brand?.logo]);
+
 
   useEffect(() => {
     if (localStorage.getItem('DEV_MODE') === 'true') {
@@ -188,6 +206,7 @@ const AppContent = () => {
           <Route path="/shop" element={<Shop onSelectCake={handleSelectCake} />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/custom-order" element={<CustomOrder />} />
           <Route 
             path="/details" 
             element={

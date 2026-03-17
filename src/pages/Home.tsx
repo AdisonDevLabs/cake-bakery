@@ -2,11 +2,15 @@
 import React from 'react';
 import { useBrand } from '../context/BrandContext';
 import { Hero } from '../sections/Hero';
+import { About } from '../sections/About';
+import { Categories } from '../sections/Categories';
 import { FeaturedCakes } from '../sections/FeaturedCakes';
-import { Gallery } from '../pages/Gallery';
+import { CustomOrderBanner } from '../sections/CustomOrderBanner';
 import { Testimonials } from '../pages/Testimonials';
+import { GalleryPreview } from '../sections/GalleryPreview';
+import { HowToOrder } from '../sections/HowToOrder';
 import { FAQ } from '../pages/FAQ';
-import { Contact } from '../pages/Contact';
+import { ContactSection } from '../sections/ContactSection';
 import type { Cake } from '../types';
 
 interface HomeProps {
@@ -20,11 +24,15 @@ export const Home: React.FC<HomeProps> = ({ onSelectCake }) => {
 
   const SECTION_MAP: Record<string, React.ReactNode> = {
     hero: <Hero key="hero" />,
+    about: <About key="about" />,
+    categories: <Categories key="categories" />,
     featured: <FeaturedCakes key="featured" onSelectCake={onSelectCake} />,
-    gallery: data.config.features.showGallery ? <Gallery key="gallery" /> : null,
+    customOrder: <CustomOrderBanner key="customOrder" />,
+    howToOrder: <HowToOrder key="howToOrder" />,
     testimonials: data.config.features.showTestimonials ? <Testimonials key="testimonials" /> : null,
+    gallery: data.config.features.showGallery ? <GalleryPreview key="gallery" /> : null,
     faq: data.config.features.showFaq ? <FAQ key="faq" /> : null,
-    contact: <Contact key="contact" />,
+    contact: <ContactSection key="contact" />,
   };
 
   return (
@@ -36,7 +44,7 @@ export const Home: React.FC<HomeProps> = ({ onSelectCake }) => {
           <div 
             key={sectionKey} 
             id={sectionKey} 
-            className="scroll-mt-20" // Matches the header height (h-20)
+            className="scroll-mt-20"
           >
             {component}
           </div>
