@@ -1,0 +1,19 @@
+{
+  "name": "Brilliant Cakes",
+  "tagline": "Nakuru's Best Plug for Yummy & Cutesy Custom Cakes",
+  "logo": "/brands/brilliant-cakes-ke/images/brilliant-cakes-logo.png",
+  "colors": {
+    "primary": "#d946ef", 
+    "secondary": "#fdf4ff",
+    "accent": "#701a75"
+  },
+  "contact": {
+    "email": "brianteddy20.bt@gmail.com",
+    "phone": "0704270093",
+    "address": "Old Nairobi Rd, M54F+7H Nakuru, Kenya",
+    "socials": {
+      "instagram": "https://www.instagram.com/brilliant_cakes_ke",
+      "facebook": "https://web.facebook.com/brillantcakes254"
+    }
+  }
+}

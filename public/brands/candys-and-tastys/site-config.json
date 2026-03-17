@@ -1,0 +1,9 @@
+{
+  "features": {
+    "showTestimonials": true,
+    "showGallery": true,
+    "showFaq": true,
+    "showPromotions": true
+  },
+  "homepageOrder": ["hero", "featured", "gallery", "testimonials", "faq", "promotions", "contact"]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "g1",
+    "image": "/brands/brilliant-cakes-ke/images/calabash-cake.jpg",
+    "caption": "Hand-Sculpted Traditional Masterpiece",
+    "category": "Sculpted"
+  },
+  {
+    "id": "g2",
+    "image": "/brands/brilliant-cakes-ke/images/luxury-grad-gold-drip.jpg",
+    "caption": "Luxury Wedding Display Set",
+    "category": "Weddings"
+  },
+  {
+    "id": "g3",
+    "image": "/brands/brilliant-cakes-ke/images/modern-floral-duo.jpg",
+    "caption": "Modern Floral Concepts",
+    "category": "Creative"
+  },
+  {
+    "id": "g4",
+    "image": "/brands/brilliant-cakes-ke/images/pink-rosette-birthday.jpg",
+    "caption": "Signature Birthday Designs",
+    "category": "Birthdays"
+  }
+]
