@@ -32,7 +32,7 @@ export const Hero = () => {
           <span className="inline-block px-4 py-1 text-4xl rounded-full bg-brand-primary/10 text-brand-primary text-xs font-black tracking-[0.2em] uppercase mb-8">
             Welcome to {brand.name}
           </span>
-          <h1 className="text-4xl md:text-7xl font-black text-slate-900 leading-[1.05] mb-6 tracking-tighter">
+          <h1 className="text-5xl md:text-7xl font-black text-slate-900 leading-[1.05] mb-6 tracking-tighter">
             {brand.tagline.includes(' ') ? (
               <>
                 {brand.tagline.split(' ').slice(0, -1).join(' ')}{' '}
