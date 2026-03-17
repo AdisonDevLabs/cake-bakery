@@ -24,7 +24,7 @@ export const Hero = () => {
           alt="" // Marked as decorative for screen readers
           className="w-full h-full object-cover object-center lg:object-right"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 lg:via-white/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/50 lg:via-white/60 to-transparent" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
