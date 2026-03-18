@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "slug": "bridge-ministry-corporate-cake",
+    "name": "Bridge Ministry Corporate Cake",
+    "description": "Vanilla sponge cake base with smooth white buttercream frosting and a custom edible logo print for The Bridge Ministry.",
+    "price": 3200.00,
+    "image": "/brands/fabulous-bakery/images/bridge-ministry-corporate-cake.jpg",
+    "categoryId": "specialty",
+    "isFeatured": false,
+    "tags": ["Corporate", "Edible Print"]
+  },
+  {
+    "id": "2",
+    "slug": "paw-patrol-pink-princess-cake",
+    "name": "Paw Patrol Pink Birthday Cake",
+    "description": "1kg Vanilla sponge cake with pink and white buttercream swirls, featuring Paw Patrol edible character prints and paw-print decals.",
+    "price": 3500.00,
+    "image": "/brands/fabulous-bakery/images/paw-patrol-pink-princess-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": true,
+    "tags": ["Kids", "Paw Patrol", "Birthday"]
+  },
+  {
+    "id": "3",
+    "slug": "sofia-the-first-themed-cake",
+    "name": "1kg Sofia Themed Cake",
+    "description": "1kg Vanilla sponge cake with purple and white buttercream, decorated with Sofia the First character toppers, 3D butterflies, and purple sugar pearls.",
+    "price": 3500.00,
+    "image": "/brands/fabulous-bakery/images/sofia-the-first-themed-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": true,
+    "tags": ["Kids", "Sofia The First", "Purple"]
+  },
+  {
+    "id": "4",
+    "slug": "red-yellow-floral-rose-cake",
+    "name": "Floral Red & Yellow Rose Cake",
+    "description": "Spiced vanilla sponge cake with white buttercream frosting, topped with fresh red and yellow roses, baby's breath, and a gold 'Happy Birthday' topper.",
+    "price": 3400.00,
+    "image": "/brands/fabulous-bakery/images/red-yellow-floral-rose-cake.jpg",
+    "categoryId": "specialty",
+    "isFeatured": false,
+    "tags": ["Floral", "Spiced Vanilla", "Birthday"]
+  },
+  {
+    "id": "5",
+    "slug": "blue-white-ruffle-anniversary-cake",
+    "name": "Blue & White Ruffled Anniversary Cake",
+    "description": "Blueberry sponge cake with hand-piped blue and white buttercream ruffles, accented with gold leaf and 'Mum & Dad' gold lettering.",
+    "price": 3800.00,
+    "image": "/brands/fabulous-bakery/images/blue-white-ruffle-anniversary-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": true,
+    "tags": ["Anniversary", "Blueberry", "Gold Leaf"]
+  },
+  {
+    "id": "6",
+    "slug": "ernest-butterfly-birthday-cake",
+    "name": "Ernest Butterfly Birthday Cake",
+    "description": "Mint green and white buttercream cake base decorated with multi-colored butterfly toppers and custom green frosting lettering.",
+    "price": 3200.00,
+    "image": "/brands/fabulous-bakery/images/ernest-butterfly-birthday-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Kids", "Butterfly", "Birthday"]
+  },
+  {
+    "id": "7",
+    "slug": "ngumi-blue-striped-birthday-cake",
+    "name": "Ngumi Blue Striped Birthday Cake",
+    "description": "Vanilla sponge cake with horizontal blue buttercream stripes, gold splatter effects, and black hand-piped birthday message.",
+    "price": 3000.00,
+    "image": "/brands/fabulous-bakery/images/ngumi-blue-striped-birthday-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Simple", "Gold Splatter", "Birthday"]
+  },
+  {
+    "id": "8",
+    "slug": "israel-half-birthday-cloud-cake",
+    "name": "Israel 1/2 Birthday Cloud Cake",
+    "description": "Dome-shaped fondant cake with vanilla sponge, sky-blue sugar paste covering, handcrafted fondant clouds, and hot air balloon motifs.",
+    "price": 4000.00,
+    "image": "/brands/fabulous-bakery/images/israel-half-birthday-cloud-cake.jpg",
+    "categoryId": "specialty",
+    "isFeatured": true,
+    "tags": ["Milestone", "Fondant", "Kids"]
+  }
+]

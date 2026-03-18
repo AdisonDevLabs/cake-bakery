@@ -1,0 +1,20 @@
+[
+  {
+    "id": "f1",
+    "question": "How far in advance should I place my order?",
+    "answer": "For signature cakes, we require at least 48 hours notice. For custom wedding cakes, we recommend booking 3-6 months in advance.",
+    "category": "Ordering"
+  },
+  {
+    "id": "f2",
+    "question": "Do you offer gluten-free or vegan options?",
+    "answer": "Yes! We have a dedicated range of vegan and gluten-friendly cakes. Please note they are made in a facility that also processes wheat.",
+    "category": "Ingredients"
+  },
+  {
+    "id": "f3",
+    "question": "What are your delivery zones?",
+    "answer": "We deliver within a 20-mile radius of our Dessert City kitchen. Delivery fees are calculated at checkout based on distance.",
+    "category": "Delivery"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "Fabulous Bakery",
+  "tagline": "All events cakes. Wholesale & Retail.",
+  "logo": "/brands/fabulous-bakery/images/fabulous-bakery-logo.jpg",
+  "colors": {
+    "primary": "#8e0b3c", 
+    "secondary": "#1a4789",
+    "accent": "#e91e63"
+  },
+  "contact": {
+    "email": "fabulous.keki@gmail.com",
+    "phone": "254743260255",
+    "address": "Choices Building, Opposite Stem Hotel, Barnabas, Pipeline, Nakuru, Kenya",
+    "socials": {
+      "instagram": "",
+      "facebook": "https://www.facebook.com/Fabulouspastry"
+    }
+  }
+}

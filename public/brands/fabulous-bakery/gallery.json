@@ -1,0 +1,50 @@
+[
+  {
+    "id": "g15",
+    "image": "/brands/fabulous-bakery/images/bridge-ministry-corporate-cake.jpg",
+    "caption": "The Bridge Ministry Corporate Custom Cake",
+    "category": "Corporate"
+  },
+  {
+    "id": "g16",
+    "image": "/brands/fabulous-bakery/images/paw-patrol-pink-princess-cake.jpg",
+    "caption": "Paw Patrol Character Birthday Cake",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g17",
+    "image": "/brands/fabulous-bakery/images/sofia-the-first-themed-cake.jpg",
+    "caption": "Sofia the First Milestone Cake",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g18",
+    "image": "/brands/fabulous-bakery/images/red-yellow-floral-rose-cake.jpg",
+    "caption": "Elegant Floral Rose Arrangement",
+    "category": "Special Occasions"
+  },
+  {
+    "id": "g19",
+    "image": "/brands/fabulous-bakery/images/blue-white-ruffle-anniversary-cake.jpg",
+    "caption": "Blue Ruffled Anniversary Design",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g20",
+    "image": "/brands/fabulous-bakery/images/ernest-butterfly-birthday-cake.jpg",
+    "caption": "Vibrant Butterfly Garden Theme",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g21",
+    "image": "/brands/fabulous-bakery/images/ngumi-blue-striped-birthday-cake.jpg",
+    "caption": "Simple Minimalist Striped Design",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g22",
+    "image": "/brands/fabulous-bakery/images/israel-half-birthday-cloud-cake.jpg",
+    "caption": "6-Month Milestone Cloud Cake",
+    "category": "Birthdays"
+  }
+]
