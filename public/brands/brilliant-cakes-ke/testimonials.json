@@ -1,28 +1,47 @@
 [
   {
     "id": "t1",
-    "name": "Sarah Jenkins",
-    "role": "Bride",
-    "content": "The Velvet Dream cake was the highlight of our wedding! Not only was it stunning to look at, but every guest raved about the taste. Thank you for making our day so sweet.",
+    "name": "Murtaza Nurbhai",
+    "role": "",
+    "content": "The products are always fresh. Very high standards - good hygiene and tasty baked items. Love the customer service and the meat pies are my favourite. By far the best bakery in Nakuru",
     "rating": 5,
-    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150",
-    "date": "Oct 2025"
+    "image": "/brands/nakuru-patisserie-bakeries/images/murtaza-nurbhai.jpg",
+    "date": "Jan 31, 2020"
   },
   {
     "id": "t2",
-    "name": "Mark Thompson",
-    "role": "Local Foodie",
-    "content": "Best lemon tart in the city. Period. I've tried them all, but the balance of zest and sweetness here is unmatched.",
+    "name": "Alice Rwamba Githinji",
+    "role": "",
+    "content": "Delivery on time! Very fresh cakes! Anytime, any day! My preferred bakers! Keep up the good work!",
     "rating": 5,
-    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150",
-    "date": "Dec 2025"
+    "image": "/brands/nakuru-patisserie-bakeries/images/alice-rwamba-githinji.jpg",
+    "date": "Dec 29, 2019"
   },
   {
     "id": "t3",
-    "name": "Emily Rodriguez",
-    "role": "Event Planner",
-    "content": "I recommend this bakery to all my clients. Professional, reliable, and consistently high-quality work.",
+    "name": "Shoeb Janoowalla",
+    "role": "",
+    "content": "All products made from finest ingredients and expert baker to the delight of customers",
     "rating": 5,
-    "date": "Jan 2026"
+    "image": "/brands/nakuru-patisserie-bakeries/images/shoeb-janoowalla.jpg",
+    "date": "Dec 1, 2018"
+  },
+  {
+    "id": "t4",
+    "name": "Rakel Levi",
+    "role": "",
+    "content": "Ensure you have loose change. If you walk in there without loose cash they won't serve your because they are too lazy to look for change. I was very disappointed yet I wanted the cakes.",
+    "rating": 2,
+    "image": "/brands/nakuru-patisserie-bakeries/images/rakel-levi.jpg",
+    "date": "Feb 6, 2021"
+  },
+  {
+    "id": "t5",
+    "name": "Wanjihia Daniel",
+    "role": "",
+    "content": "",
+    "rating": 4,
+    "image": "/brands/nakuru-patisserie-bakeries/images/wanjihia-daniel.jpg",
+    "date": "May 12, 2017"
   }
 ]

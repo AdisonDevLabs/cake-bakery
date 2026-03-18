@@ -5,5 +5,5 @@
     "showFaq": true,
     "showPromotions": true
   },
-  "homepageOrder": ["hero", "about", "categories", "featured", "customOrder", "howToOrder", "testimonials", "gallery", "faq", "promotions", "contact"]
+  "homepageOrder": ["hero", "about", "categories", "featured", "customOrder", "howToOrder", "testimonials", "gallery", "promotions", "contact"]
 }
