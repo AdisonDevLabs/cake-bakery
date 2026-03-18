@@ -1,0 +1,56 @@
+[
+  {
+    "id": "g1",
+    "image": "/brands/mcg-cakes/images/triple-layer-chocolate-fudge.jpg",
+    "caption": "Signature Chocolate Fudge Slice",
+    "category": "Bakery"
+  },
+  {
+    "id": "g2",
+    "image": "/brands/mcg-cakes/images/navy-gold-traditional-ruracio-cake.jpg",
+    "caption": "Navy & Gold Traditional Ruracio Tier",
+    "category": "Weddings"
+  },
+  {
+    "id": "g3",
+    "image": "/brands/mcg-cakes/images/maroon-traditional-engagement-set.jpg",
+    "caption": "Maroon Traditional Engagement Set",
+    "category": "Weddings"
+  },
+  {
+    "id": "g4",
+    "image": "/brands/mcg-cakes/images/presidential-edible-print-cake.jpg",
+    "caption": "Custom Edible Print Birthday Designs",
+    "category": "Special Events"
+  },
+  {
+    "id": "g5",
+    "image": "/brands/mcg-cakes/images/traditional-clay-pot-nyungu-cake.jpeg",
+    "caption": "Sculpted Clay Pot (Nyungu) Artistry",
+    "category": "Weddings"
+  },
+  {
+    "id": "g6",
+    "image": "/brands/mcg-cakes/images/kid-genius-graduation-cake.jpg",
+    "caption": "Kid Genius Theme Celebration",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g7",
+    "image": "/brands/mcg-cakes/images/football-drip-birthday-cake.jpg",
+    "caption": "Football Theme Drip Cakes",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g8",
+    "image": "/brands/mcg-cakes/images/spiderman-superhero-tiered-cake.jpg",
+    "caption": "Two-Tier Superhero Milestone",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g9",
+    "image": "/brands/mcg-cakes/images/taniah-3rd-birthday-character-cake.jpg",
+    "caption": "Custom Character Theme Birthday for Taniah",
+    "category": "Birthdays"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "slug": "triple-layer-chocolate-fudge",
+    "name": "Triple Layer Chocolate Fudge",
+    "description": "Rich, moist chocolate sponge layers with deep cocoa frosting, topped with chocolate shavings and a dark ganache drip.",
+    "price": 2500.00,
+    "image": "/brands/mcg-cakes/images/triple-layer-chocolate-fudge.jpg",
+    "categoryId": "bakery",
+    "isFeatured": true,
+    "tags": ["Chocolate", "Freshly Baked"]
+  },
+  {
+    "id": "2",
+    "slug": "navy-gold-traditional-ruracio-cake",
+    "name": "Navy & Gold Traditional Ruracio Cake",
+    "description": "A majestic three-tier traditional wedding cake featuring intricate navy and orange geometric patterns with gold detailing.",
+    "price": 7500.00,
+    "image": "/brands/mcg-cakes/images/navy-gold-traditional-ruracio-cake.jpg",
+    "categoryId": "specialty",
+    "isFeatured": true,
+    "tags": ["Traditional", "Wedding", "Ruracio"]
+  },
+  {
+    "id": "3",
+    "slug": "presidential-edible-print-cake",
+    "name": "H.E. Uhuru Kenyatta Birthday Cake",
+    "description": "Large square vanilla buttercream cake featuring a high-definition edible print and custom gold acrylic topper.",
+    "price": 4500.00,
+    "image": "/brands/mcg-cakes/images/presidential-edible-print-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Corporate", "Edible Print"]
+  },
+  {
+    "id": "4",
+    "slug": "traditional-clay-pot-nyungu-cake",
+    "name": "Traditional Clay Pot (Nyungu) Cake",
+    "description": "A masterpiece sculpted cake shaped like a traditional clay pot, set on a patterned base with pampas grass and gold accents.",
+    "price": 8500.00,
+    "image": "/brands/mcg-cakes/images/traditional-clay-pot-nyungu-cake.jpeg",
+    "categoryId": "specialty",
+    "isFeatured": true,
+    "tags": ["Sculpted", "Traditional Wedding"]
+  },
+  {
+    "id": "5",
+    "slug": "kid-genius-graduation-cake",
+    "name": "Kid Genius Education Cake",
+    "description": "A fun, educational-themed white cake featuring fondant pencils, a graduation cap, and 'ABC' chalkboard graphics.",
+    "price": 3800.00,
+    "image": "/brands/mcg-cakes/images/kid-genius-graduation-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Kids", "Graduation", "Educational"]
+  },
+  {
+    "id": "6",
+    "slug": "football-drip-birthday-cake",
+    "name": "Kibali Football Birthday Cake",
+    "description": "White buttercream cake with a green 'grass' top, chocolate drip, and custom soccer-themed toppers.",
+    "price": 3500.00,
+    "image": "/brands/mcg-cakes/images/football-drip-birthday-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Birthday", "Sports", "Drip Cake"]
+  },
+  {
+    "id": "7",
+    "slug": "spiderman-superhero-tiered-cake",
+    "name": "Spiderman Two-Tier Milestone Cake",
+    "description": "A vibrant two-tier superhero cake featuring city skyline silhouettes, spiderweb patterns, and custom character toppers.",
+    "price": 5500.00,
+    "image": "/brands/mcg-cakes/images/spiderman-superhero-tiered-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": true,
+    "tags": ["Superhero", "Kids", "Two-Tier"]
+  },
+  {
+    "id": "8",
+    "slug": "taniah-3rd-birthday-character-cake",
+    "name": "Taniah's 3rd Birthday Theme Cake",
+    "description": "White horizontally-ridged buttercream cake decorated with custom cardstock character toppers, a rainbow arc, edible prints, and pink sugar pearls.",
+    "price": 3500.00,
+    "image": "/brands/mcg-cakes/images/taniah-3rd-birthday-character-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Birthday", "Kids", "Custom Topper"]
+  }
+]

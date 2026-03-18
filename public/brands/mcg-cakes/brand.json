@@ -1,0 +1,19 @@
+{
+  "name": "McG cakes KENYA",
+  "tagline": "Welcome to our World of freshly baked delights, we offer a wide variety of popular cakes and flavours",
+  "logo": "/brands/mcg-cakes/images/mcg-logo.jpg",
+  "colors": {
+    "primary": "#8e0b3c", 
+    "secondary": "#1a4789",
+    "accent": "#e91e63"
+  },
+  "contact": {
+    "email": "mcgcakes01@gmail.com",
+    "phone": "254728957684",
+    "address": "Nakuru City, Nakuru, Kenya",
+    "socials": {
+      "instagram": "https://instagram.com/mcgcakes_ke",
+      "facebook": "https://facebook.com/mcgcakes01"
+    }
+  }
+}
