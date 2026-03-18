@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "slug": "tamara-sofia-castle-cake",
+    "name": "Tamara's 7th Birthday Sofia Cake",
+    "description": "Tall pink vanilla sponge cake featuring edible character decals, a cardstock castle topper, and delicate purple sugar pearls.",
+    "price": 4200.00,
+    "image": "/brands/arys-cakes-n-bakes/images/tamara-sofia-castle-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": true,
+    "tags": ["Kids", "Sofia The First", "Pink"]
+  },
+  {
+    "id": "2",
+    "slug": "mothers-day-mint-floral-cake",
+    "name": "Mother's Day Mint & Pink Cake",
+    "description": "Mint green ridged buttercream cake topped with pink frosting swirls, multicolored sprinkles, and a custom 'Happy Mother's Day' topper.",
+    "price": 3500.00,
+    "image": "/brands/arys-cakes-n-bakes/images/mothers-day-mint-floral-cake.jpg",
+    "categoryId": "specialty",
+    "isFeatured": false,
+    "tags": ["Mother's Day", "Mint Green", "Floral"]
+  },
+  {
+    "id": "3",
+    "slug": "jael-sofia-lavender-cake",
+    "name": "Jael's Sofia Birthday Cake",
+    "description": "Lavender ridged buttercream cake decorated with Sofia the First toppers, rainbow sprinkles, and hand-piped base borders.",
+    "price": 3400.00,
+    "image": "/brands/arys-cakes-n-bakes/images/jael-sofia-lavender-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Kids", "Sofia The First", "Lavender"]
+  },
+  {
+    "id": "4",
+    "slug": "coconut-pineapple-birthday-gift-cake",
+    "name": "Coconut & Pineapple Birthday Cake",
+    "description": "Tropical sponge cake covered in shredded coconut, topped with pink buttercream swirls, glazed pineapple pieces, and a pink 'Happy Birthday' topper.",
+    "price": 3600.00,
+    "image": "/brands/arys-cakes-n-bakes/images/coconut-pineapple-birthday-gift-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": true,
+    "tags": ["Tropical", "Coconut", "Pineapple"]
+  },
+  {
+    "id": "5",
+    "slug": "white-forest-pineapple-ring-cake",
+    "name": "White Forest Pineapple Rose Cake",
+    "description": "White forest cake coated in coconut flakes, featuring cream rosettes, blue sprinkles, and a centered glazed pineapple ring.",
+    "price": 3200.00,
+    "image": "/brands/arys-cakes-n-bakes/images/white-forest-pineapple-ring-cake.jpg",
+    "categoryId": "bakery",
+    "isFeatured": false,
+    "tags": ["White Forest", "Pineapple", "Classic"]
+  },
+  {
+    "id": "6",
+    "slug": "eid-mubarak-strawberry-fruit-cake",
+    "name": "Eid Mubarak Fresh Fruit Cake",
+    "description": "Celebration cake covered in coconut flakes, topped with fresh strawberry halves, dark grapes, and silver leaf accents.",
+    "price": 3800.00,
+    "image": "/brands/arys-cakes-n-bakes/images/eid-mubarak-strawberry-fruit-cake.jpg",
+    "categoryId": "specialty",
+    "isFeatured": true,
+    "tags": ["Eid", "Fresh Fruit", "Celebration"]
+  },
+  {
+    "id": "7",
+    "slug": "dylan-one-yellow-butterfly-cake",
+    "name": "Dylan's 1st Birthday Butterfly Cake",
+    "description": "Soft yellow buttercream cake with colorful base sprinkles, topped with a yellow butterfly and custom 'Dylan is One' lettering.",
+    "price": 3000.00,
+    "image": "/brands/arys-cakes-n-bakes/images/dylan-one-yellow-butterfly-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Kids", "1st Birthday", "Minimalist"]
+  },
+  {
+    "id": "8",
+    "slug": "pink-gold-leaf-milestone-cake",
+    "name": "Pink Gold Leaf Milestone Cake",
+    "description": "Elegant pink buttercream cake accented with real gold leaf flakes and a base border of dark pink sugar crystals.",
+    "price": 3500.00,
+    "image": "/brands/arys-cakes-n-bakes/images/pink-gold-leaf-milestone-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Elegant", "Gold Leaf", "Pink"]
+  },
+  {
+    "id": "9",
+    "slug": "paw-patrol-road-trip-cake",
+    "name": "Paw Patrol Road Trip Cake",
+    "description": "Adventure-themed cake with a black 'road' fondant base, green grass piping, and Paw Patrol character toppers.",
+    "price": 4000.00,
+    "image": "/brands/arys-cakes-n-bakes/images/paw-patrol-road-trip-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": true,
+    "tags": ["Kids", "Paw Patrol", "Themed"]
+  },
+  {
+    "id": "10",
+    "slug": "akim-larva-island-cake",
+    "name": "Akim's 8th Larva Island Cake",
+    "description": "Light blue buttercream cake featuring Larva character decals, palm tree toppers, and a vibrant sprinkle base.",
+    "price": 3800.00,
+    "image": "/brands/arys-cakes-n-bakes/images/akim-larva-island-cake.jpg",
+    "categoryId": "cakes",
+    "isFeatured": false,
+    "tags": ["Kids", "Larva", "Themed"]
+  }
+]

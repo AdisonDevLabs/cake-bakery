@@ -1,0 +1,32 @@
+[
+  {
+    "id": "g1",
+    "image": "/brands/arys-cakes-n-bakes/images/tamara-sofia-castle-cake.jpg",
+    "caption": "Sofia the First Castle Theme",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g2",
+    "image": "/brands/arys-cakes-n-bakes/images/mothers-day-mint-floral-cake.jpg",
+    "caption": "Special Mother's Day Floral Design",
+    "category": "Occasions"
+  },
+  {
+    "id": "g3",
+    "image": "/brands/arys-cakes-n-bakes/images/coconut-pineapple-birthday-gift-cake.jpg",
+    "caption": "Tropical Coconut & Pineapple Delight",
+    "category": "Bakery"
+  },
+  {
+    "id": "g4",
+    "image": "/brands/arys-cakes-n-bakes/images/eid-mubarak-strawberry-fruit-cake.jpg",
+    "caption": "Eid Mubarak Fresh Fruit Medley",
+    "category": "Special Occasions"
+  },
+  {
+    "id": "g5",
+    "image": "/brands/arys-cakes-n-bakes/images/paw-patrol-road-trip-cake.jpg",
+    "caption": "Paw Patrol Road Map Adventure",
+    "category": "Birthdays"
+  }
+]

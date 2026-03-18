@@ -1,0 +1,19 @@
+{
+  "name": "Ary's Cakes n Bakes",
+  "tagline": "Delight in every bite 💕",
+  "logo": "/brands/arys-cakes-n-bakes/images/arys-cakes-n-bakes.png",
+  "colors": {
+    "primary": "#8e0b3c", 
+    "secondary": "#1a4789",
+    "accent": "#e91e63"
+  },
+  "contact": {
+    "email": "mogiregracy@gmail.com",
+    "phone": "254723499244",
+    "address": "Nakuru, Kenya",
+    "socials": {
+      "instagram": "https://www.instagram.com/aryscakesnbakes/",
+      "facebook": "https://www.facebook.com/ArysCakesNBakes/"
+    }
+  }
+}
