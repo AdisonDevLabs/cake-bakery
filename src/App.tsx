@@ -72,6 +72,8 @@ const AppContent = () => {
     else if (devKey === 'lock') {
       localStorage.removeItem('DEV_MODE');
       setIsDev(false);
+      const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+      window.history.replaceState({path: newUrl}, '', newUrl);
     }
   }, [location.search]);
 
