@@ -56,7 +56,24 @@ const AppContent = () => {
     if (localStorage.getItem('DEV_MODE') === 'true') {
       setIsDev(true);
     }
-  }, []);
+
+    const params = new URLSearchParams(location.search);
+    const devKey = params.get('dev');
+
+    // To unlock: visit /?dev=adison
+    if (devKey === 'adison') {
+      localStorage.setItem('DEV_MODE', 'true');
+      setIsDev(true);
+
+      const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+      window.history.replaceState({path: newUrl}, '', newUrl);
+    }
+    // To lock: visit /?dev=lock
+    else if (devKey === 'lock') {
+      localStorage.removeItem('DEV_MODE');
+      setIsDev(false);
+    }
+  }, [location.search]);
 
   const handleSelectCake = (cake: Cake) => {
     setSelectedCake(cake);
