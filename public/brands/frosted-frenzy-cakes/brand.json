@@ -1,0 +1,19 @@
+{
+  "name": "Frosted Frenzy Cakes",
+  "tagline": "Handcrafted Amazing Cakes & Sweet Delicacies",
+  "logo": "/brands/frosted-frenzy-cakes/images/frosted-frenzy-logo.jpg",
+  "colors": {
+    "primary": "#8e0b3c", 
+    "secondary": "#1a4789",
+    "accent": "#e91e63"
+  },
+  "contact": {
+    "email": "",
+    "phone": "254722403218",
+    "address": "P33G+X6G, Nakuru, Kenya",
+    "socials": {
+      "instagram": "https://www.instagram.com/frostedfrenzycakes/",
+      "facebook": ""
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "g1",
+    "image": "/brands/frosted-frenzy-cakes/images/chocolate-loaded-drip-cake.jpg",
+    "caption": "Indulgent Chocolate Drip Design",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g2",
+    "image": "/brands/frosted-frenzy-cakes/images/disney-princess-purple-cake.jpg",
+    "caption": "Disney Princess Edible Print Cake",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g3",
+    "image": "/brands/frosted-frenzy-cakes/images/monochrome-sphere-celebration-cake.jpg",
+    "caption": "Modern Black and White Sphere Art",
+    "category": "Special Events"
+  },
+  {
+    "id": "g4",
+    "image": "/brands/frosted-frenzy-cakes/images/paw-patrol-adventure-cake.jpg",
+    "caption": "Paw Patrol Character Celebration",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g5",
+    "image": "/brands/frosted-frenzy-cakes/images/pink-oreo-chocolate-drip-cake.png",
+    "caption": "Pink Oreo and White Chocolate Drip Celebration",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g6",
+    "image": "/brands/mcg-cakes/images/kid-genius-graduation-cake.jpg",
+    "caption": "Kid Genius Theme Celebration",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g7",
+    "image": "/brands/mcg-cakes/images/football-drip-birthday-cake.jpg",
+    "caption": "Football Theme Drip Cakes",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g8",
+    "image": "/brands/mcg-cakes/images/spiderman-superhero-tiered-cake.jpg",
+    "caption": "Two-Tier Superhero Milestone",
+    "category": "Birthdays"
+  },
+  {
+    "id": "g9",
+    "image": "/brands/mcg-cakes/images/taniah-3rd-birthday-character-cake.jpg",
+    "caption": "Custom Character Theme Birthday for Taniah",
+    "category": "Birthdays"
+  }
+]
